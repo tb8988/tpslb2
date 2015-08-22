@@ -11,8 +11,10 @@ namespace Lab2Topicos.Controllers
     // NOTE: In order to launch WCF Test Client for testing this service, please select lab2.svc or lab2.svc.cs at the Solution Explorer and start debugging.
     public class lab2 : Ilab2
     {
-        public void DoWork()
+        public void SelectbyID(string path, string auditoriaID, string Endpoint, string RepositorioFinal)
         {
+            Models.DataAccess.Costumers customers = new Models.DataAccess.Costumers();
+            customers.GetCostumerInfo();
         }
     }
 }

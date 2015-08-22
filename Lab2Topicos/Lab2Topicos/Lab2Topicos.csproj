@@ -143,6 +143,8 @@
     <Compile Include="Models\Customers.cs">
       <DependentUpon>lab2.tt</DependentUpon>
     </Compile>
+    <Compile Include="Models\DataAccess\Addresess.cs" />
+    <Compile Include="Models\DataAccess\Costumers.cs" />
     <Compile Include="Models\lab2.Context.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
